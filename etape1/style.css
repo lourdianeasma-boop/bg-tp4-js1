@@ -1,0 +1,35 @@
+#table_container {
+  font-family: Calibri, Arial, sans-serif;
+  width: 80%;
+  margin: 40px auto;
+  overflow-x: auto;
+}
+
+#table_container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+#table_container th {
+  background-color: #007bc4;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+#table_container td {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  color: #333333;
+}
+
+.col_number,
+.col_chkbox {
+  text-align: center;
+}
+
+.col_text {
+  text-align: left;
+}

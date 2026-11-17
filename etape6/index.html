@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP4 - Etape 6</title>
+    <!-- On charge la feuille de style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="table_container">
+      <!-- Le formulaire de saisie pour ajouter des données -->
+      <div id="form_container">
+        <div class="form_group">
+          <label class="form_label">Nom:</label>
+          <input type="text" id="form_nom" class="form_field" />
+        </div>
+        <div class="form_group">
+          <label class="form_label">Prénom:</label>
+          <input type="text" id="form_prenom" class="form_field" />
+        </div>
+        <div class="form_group">
+          <label class="form_label">Points:</label>
+          <input type="number" id="form_points" class="form_field" />
+        </div>
+        <button class="btn-add" onclick="doNewData()">Ajouter</button>
+      </div>
+
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th class="col_number">N°</th>
+              <th class="col_text">Nom</th>
+              <th class="col_text">Prénom</th>
+              <th class="col_number">Points</th>
+              <th class="col_chkbox">Select</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Le JS va remplir le tbody dynamiquement -->
+          </tbody>
+        </table>
+        <br />
+
+        <!-- Zone de résumé pour les totaux -->
+        <div id="container_summary">
+          <p id="p1">0 ligne(s)</p>
+          <p id="p2"></p>
+          <p id="p3">Total point(s)= 0</p>
+        </div>
+        <br />
+
+        <!-- Boutons d'action : console et suppression -->
+        <div id="container_btn">
+          <button class="btn-consol" onclick="consoleTableau()">
+            Console Tableau
+          </button>
+          <button class="btn-del" onclick="deleteRow()">Supprimer</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Le fichier JavaScript principal -->
+    <script src="script.js"></script>
+  </body>
+</html>

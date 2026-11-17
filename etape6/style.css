@@ -1,0 +1,142 @@
+body {
+  font-family: Calibri, Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 30px;
+}
+
+/* Conteneur global avec la bordure extérieure visible sur l'image */
+#table_container {
+  width: 850px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+/* Formulaire de saisie en haut */
+#form_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+.form_group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.form_label {
+  font-weight: bold;
+  color: #333333;
+}
+
+.form_field {
+  padding: 5px;
+  width: 140px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+/* Tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th {
+  background-color: #007bc4;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #b0b0b0;
+  font-weight: bold;
+}
+
+td {
+  padding: 8px 12px;
+  border: 1px solid #dddddd;
+  color: #333333;
+}
+
+.col_number,
+.col_chkbox {
+  text-align: center;
+}
+
+.col_text {
+  text-align: left;
+}
+
+/* Espace Résumé (bande grise) */
+#container_summary {
+  display: flex;
+  align-items: center;
+  background-color: #e5e5e5;
+  border: 1px solid #dddddd;
+  border-top: none;
+  padding: 8px 12px;
+  font-weight: bold;
+  color: #333333;
+  font-size: 14px;
+}
+
+#container_summary p {
+  margin: 0;
+}
+
+#p1 {
+  flex: 1;
+}
+
+#p2 {
+  display: none;
+}
+
+#p3 {
+  width: 20%;
+  text-align: left;
+}
+
+/* Conteneur des boutons du bas (alignés à droite) */
+#container_btn {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-top: none;
+  padding: 15px 12px;
+}
+
+/* Style des boutons */
+button {
+  padding: 6px 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.btn-add {
+  background-color: #00b300; /* Vert vif */
+}
+
+.btn-consol {
+  background-color: #c69500; /* Jaune ocre/doré */
+}
+
+.btn-del {
+  background-color: #ff0000; /* Rouge */
+}
+
+button:hover {
+  opacity: 0.9;
+}

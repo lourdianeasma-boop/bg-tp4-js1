@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TP4 - Etape 3</title>
+    <!-- On relie le fichier CSS pour le design -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="table_container">
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th class="col_number">N°</th>
+              <th class="col_text">Nom</th>
+              <th class="col_text">Prénom</th>
+              <th class="col_number">Points</th>
+              <th class="col_chkbox">Select</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Vide exprès : le JS va remplir ça dynamiquement -->
+          </tbody>
+        </table>
+        <br />
+        <!-- Boutons pour tester l'ajout et la console -->
+        <button onclick="doInsert('nom', 'prenom', 10)">Ajouter</button>
+        <button onclick="consoleTableau()">Console Tableau</button>
+      </div>
+    </div>
+    <!-- Chargement du script JS -->
+    <script src="script.js"></script>
+  </body>
+</html>

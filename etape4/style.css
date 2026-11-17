@@ -1,0 +1,66 @@
+#table_container {
+  font-family: Calibri, Arial, sans-serif;
+  width: 80%;
+  margin: 40px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+th {
+  background-color: #007bc4;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+td {
+  padding: 8px 12px;
+  border: 1px solid #e0e0e0;
+  color: #333333;
+}
+
+.col_number,
+.col_chkbox {
+  text-align: center;
+}
+
+.col_text {
+  text-align: left;
+}
+
+/* Espace Résumé */
+#container_summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e5e5;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+#container_summary p {
+  margin: 0;
+}
+
+#p2 {
+  display: none;
+}
+
+/* Ajustement pour placer le total sous la colonne Points */
+#p3 {
+  margin-right: 75px;
+}
+
+button {
+  padding: 6px 14px;
+  margin-top: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
